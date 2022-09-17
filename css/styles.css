@@ -1,0 +1,33 @@
+body {
+    font: bold 18px 'Courier New', Courier, monospace;
+    background-image: url('https://telcomcayuga.com/wp-content/uploads/2019/09/tech-background.jpg');
+}
+
+section {
+    background-color: rgb(231, 231, 146);
+    border-radius: 5px;
+    border-bottom: 3px solid black;
+    width: fit-content;
+    padding: 0px 30px;
+    margin: 50px 300px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+img {
+    position: absolute;
+}
+
+div {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+}
+
+#rightSide {
+    left: 500px;
+    border-left: 3px solid;
+}
