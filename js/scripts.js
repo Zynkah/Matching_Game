@@ -7,7 +7,7 @@ let numberOfFaces = 5;
 
             for (let i = 0; i < numberOfFaces; i++) {
                 const face = document.createElement('img');
-                face.src = '../images/smile.png';
+                face.src = '../Matching-Game/images/smile.png';
                 const randomTop = Math.floor(Math.random() * 400) + 1;
                 const randomLeft = Math.floor(Math.random() * 400) + 1;
                 face.style.top = randomTop + 'px';
